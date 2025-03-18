@@ -1,2 +1,8 @@
 ipykernel
 python-dotenv
+sweetviz
+autoviz
+imbalanced-learn
+numpy==1.23.4
+h2o
+fairlearn
