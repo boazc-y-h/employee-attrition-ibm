@@ -58,9 +58,8 @@ However, the test performance showed highly imbalanced results, suggesting poten
 ## Model Interpretation
 The leader model selected was a Stacked Ensemble Model with a GBM model being its dominant model. The variable importances of the said dominant model are illustrated below. The SHAP summary plot below shows the contribution of the features for each row of data in the test set.
 
-![variable importance](image-2.png)
-
-![shap](image-3.png)
+![alt text](image-2.png "variable importance")
+![alt text](image-3.png "shap")
 
 ## Model Fairness
 
