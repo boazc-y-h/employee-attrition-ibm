@@ -90,7 +90,7 @@ target/
 .venv/
 
 # Exclude trained models
-/models/
+# /models/
 
 # exclude data from source control by default
 # /data/
