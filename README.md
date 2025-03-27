@@ -18,12 +18,15 @@ After loading the data, the data was cleaned to ensure its veracity and its comp
 
 
 ## EDA
-The distributions of the data and correlations for various variables were plotted [here](reports/sweetviz_eda_report.html). Some of the key highlights are shown below:
+An overview dashboard was also published on [Tableau](https://public.tableau.com/views/IBM_Employee_Attrition_17406306113120/Overview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to enable a high level exploration of the employee data.
+
+[![Click to view Tableau Dashboard](reports/tableau-dashboard.png)](https://public.tableau.com/views/IBM_Employee_Attrition_17406306113120/Overview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+The distributions of the data and correlations for various variables were plotted using AutoViz and [Sweetviz](reports/sweetviz_eda_report.html). Some of the key highlights are shown below:
 
 ![Categorical Distribution](reports/AutoViz/Dist_Plots_Cats.svg)
 ![HeatMap](reports/AutoViz/Heat_Maps.svg)
 
-An overview dashboard was also published on [Tableau](https://public.tableau.com/views/IBM_Employee_Attrition_17406306113120/Overview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to enable a high level exploration of the employee data.
 
 ## Model Building 
 
