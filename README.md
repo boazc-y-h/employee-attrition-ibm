@@ -39,8 +39,6 @@ To address data imbalance, balanching techniques were considered and employed on
 
 ### Test Performance using CV-selected Threshold based on Max-F1
 
-The test performances from the leader models are relatively similar(?)
-
 Model 1: Trained on Imbalanced Dataset
 
 | Actual/Prediction | 0    | 1    | Error    | Rate    |
@@ -147,7 +145,7 @@ Key takeaways:
 │   └── balanceclasses <- Models trained using balanced data
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                          and a short `-` delimited description, e.g.
+│                         and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials
@@ -156,7 +154,8 @@ Key takeaways:
 │   ├── AutoViz        <- Generated AutoViz graphics and figures to be used in reporting
 │   └── best-model     <- Generated model interpretation and fairness evaluation for the selected model
 │
-└──  requirements.txt   <- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
+└──  requirements.txt  <- The requirements file for reproducing the analysis environment, 
+│                          e.g. generated with `pip freeze > requirements.txt`
 
 ```
 
