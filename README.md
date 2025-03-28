@@ -6,7 +6,7 @@
 
 ## Code and Resources Used 
 **Python Version:** 3.11.9  
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, h2o  
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, h2o, fairlearn
 **For Package Requirements:**  ```%pip install -r requirements.txt```  
 **Data Set Source:** https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
@@ -22,7 +22,7 @@ An overview dashboard was also published on [Tableau](https://public.tableau.com
 
 [![Click to view Tableau Dashboard](reports/tableau-dashboard.png)](https://public.tableau.com/views/IBM_Employee_Attrition_17406306113120/Overview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-The distributions of the data and correlations for various variables were plotted using AutoViz and [Sweetviz](reports/sweetviz_eda_report.html). Some of the key highlights are shown below:
+The distributions of the data and correlations for various variables were plotted using AutoViz and [Sweetviz](https://html-preview.github.io/?url=https://github.com/boazc-y-h/employee-attrition-ibm/blob/main/reports/sweetviz_eda_report.html). Some of the key highlights are shown below:
 
 ![Categorical Distribution](reports/AutoViz/Dist_Plots_Cats.svg)
 ![HeatMap](reports/AutoViz/Heat_Maps.svg)
