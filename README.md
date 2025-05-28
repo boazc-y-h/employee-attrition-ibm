@@ -22,6 +22,41 @@ An overview dashboard was also published on [Tableau](https://public.tableau.com
 
 [![Click to view Tableau Dashboard](reports/tableau-dashboard.png)](https://public.tableau.com/views/IBM_Employee_Attrition_17406306113120/Overview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+EDA Observations
+
+🔺 Highest Attrition Risk (by %):
+
+- Age < 20 (58.8%)
+- Lower education levels (15-18%)
+- HR (~25%), Technical, Marketing
+- Sales Dept (20.6%), Sales Reps (40%)
+
+📉 Highest Attrition Impact (by count):
+- More males (150) than females (87)
+- Age 20–29 (81), 30–39 (89)
+- Satisfaction score 1 = highest risk; score 3 = highest impact
+- Bachelor’s degree = most attritions (common qualification)
+- R&D Dept = highest attrition count (despite low rate)
+- Lab Technicians = top job role in attrition count
+
+🔍 Key Insights
+1. Risk ≠ Impact: High percentage doesn't always indicate high volumne (E.g, Under-20s and Sales Reps)
+
+2. Demographics with higher risk: Younger employees and males
+
+3. Satisfaction disengagement: Neutral (score 3) satisfaction signals disengagement.
+
+4. Education Matters: HR, Technical, and Marketing fields show higher attrition rates; Bachelor’s degree holders form the bulk of attrition.
+
+4. Sales vs. R&D: Sales has high individual risk; R&D has high total attrition due to size. Both need tailored retention strategies.
+
+💡 Strategic Recommendations
+- Segmented interventions: Don’t use a one-size-fits-all retention approach. Different age groups, departments, and satisfaction levels need tailored programs.
+
+- Improve mid-range satisfaction: Investigate what makes employees rate “3” and create programs that shift them toward 4.
+
+- Retention forecasting: Use both risk (attrition rate) and impact (attrition count) when modeling future attrition and prioritizing action areas.
+
 The distributions of the data and correlations for various variables were plotted using AutoViz and [Sweetviz](https://html-preview.github.io/?url=https://github.com/boazc-y-h/employee-attrition-ibm/blob/main/reports/sweetviz_eda_report.html). Some of the key highlights are shown below:
 
 ![Categorical Distribution](reports/AutoViz/Dist_Plots_Cats.svg)
@@ -130,6 +165,7 @@ The fairness metrics for Gender are as follows:
 This project aimed to predict employee attrition at IBM using automated machine learning. After evaluating different approaches, Model 2 was selected for its balance of precision and recall, ensuring both accuracy and reliability.
 
 Key takeaways:
+- EDA: Key attrition patterns across age, education, job roles, and satisfaction levels revealed that high-risk groups do not always correspond to the highest impact employee segments.
 - Feature Importance: Overtime, environment  satisfaction, and job involvement emerged as strong predictors of attrition.
 - Fairness Analysis: The fairness assessment revealed a slight disparity in model predictions across gender, highlighting areas for potential bias mitigation.
 - Future Improvements: Incorporating additional features (e.g., performance review data) and experimenting with more advanced resampling techniques could enhance predictive performance.
